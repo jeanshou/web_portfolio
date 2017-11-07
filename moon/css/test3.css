@@ -1,0 +1,145 @@
+@charset "utf-8";
+@import url("reset.css");
+/* CSS Document */
+
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.button_box{
+	position:absolute;
+	float:left;
+	width:310px;
+	height:auto;
+	margin:2% 0% 0% 2%;
+	padding:5px 10px 10px 10px;
+	z-index:1;
+	border:#FFF double;
+	border-width:6px;
+}
+
+#no_text{
+	position:fixed;
+	z-index:1;
+	border:#FFF solid;
+	border-width:1px;
+	color:#FFF;
+	right:1%;
+	bottom:1%;
+	padding:5px 10px 5px 10px;
+}
+
+.planet{
+	float:left;
+	height:50px;
+}
+
+.box_a{
+	position:absolute;
+	background:#FF0;
+	z-index:0;
+	background:100% 100%;
+}
+
+.b{
+	float:left;
+}
+
+
+#box1{
+	background: url(../images/mercury.jpg) center center;
+	background-size: cover;
+}
+
+#box2{
+	background: url(../images/VENUS.jpg) center center;
+	background-size: cover;
+}
+
+#box3{
+	background: url(../images/EARTH.jpg) center center;
+	background-size: cover;
+}
+
+#box4{
+	background: url(../images/MARS.jpg) center center;
+	background-size: cover;
+}
+
+#box5{
+	background: url(../images/JUPITER.jpg) center center;
+	background-size: cover;
+}
+
+#box6{
+	background: url(../images/SATURN.jpg) center center;
+	background-size: cover;
+}
+
+#box7{
+	background: url(../images/URANUS.jpg) center center;
+	background-size: cover;
+}
+
+#box8{
+	background: url(../images/NEPTUNE.jpg) center center;
+	background-size: cover;
+}
+
+#box9{
+	background: url(../images/pluto.jpg) center center;
+	background-size: cover;
+}
+
+a{
+	border:#FFF solid;
+	border-width:1px;
+	color:#CCC;
+	text-decoration:none;
+	padding: 5px 10px 5px 10px;
+	font:bold;
+}
+
+a:hover, a:active{
+	color:#666;
+	background:#FFF;
+}
+
+.left_text{
+	float:left;
+	margin:25% 0% 0% 2%;
+}
+
+h1{
+	text-transform:uppercase;
+	font-size:46px;
+	font:bold;
+	color:#FFF;
+	line-height:50px;
+}
+
+#important{
+	text-transform:uppercase;
+	font-size:36px;
+	color:#CCC;
+}
+
+h2{
+	width:400px;
+	font-size:22px;
+	color:#CCC;
+	line-height:26px;
+}
+.right_text{
+	float:right;
+	width:300px;
+	font-size:18px;
+	color:#CCC;
+	margin:2% 2% 0% 0%;
+}
+
+.out{
+	overflow:hidden;
+	position:absolute;
+	margin:0px;
+}
